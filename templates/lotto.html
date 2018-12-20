@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div align=center>
+            <h1>여기는 로또 검증페이지 입니다.</h1>
+        </div>
+        <div align=center>
+            <table>
+                <tr>
+                    <td><h2>당신의 선택 = {{lotto}}</h2></td>
+                </tr>
+            </table>
+            <table border=1>
+                <tr>
+                    <td style="font-family:Nanum Gothic;" align=center colspan=2>{{lotto_date}}</td>
+                    <td style="font-family:Nanum Gothic;" align=center>{{lotto_turn}}회차 당첨번호</td>
+                </tr>
+                <tr>
+                    <td width=350 style="font-family:Nanum Gothic;" align=center colspan=2>추첨번호</td>
+                    <td width=150 style="font-family:Nanum Gothic;" align=center>보너스</td>
+                </tr>
+                <tr>
+                    <td align=center colspan=2><h2>{{lotto_week}}</h2></td>
+                    <td align=center><h2>{{lotto_bonus}}</h2></td>
+                </tr>
+            </table>
+            
+            <h3>{{lotto_ment}}</h3>
+        </div>
+    </div>
+</body>
+</html>
